@@ -1,15 +1,12 @@
-# Lab 03
+# Lab 03 for 401-python
 
 ---
 ## Web Application
-***[Explain your app, should be at least a paragraph. What does it do? Why should I use? Sell your product!]***
+***This is a madlib game for fun***
 
-The web application consists of a frontend written in HTML, CSS,
-Bootstrap, and jQuery. The backend was written in Python/
+The web application consists of a python code
 
-An interface is provided to create new blog
-posts, view existing blog posts, edit existing blog posts, delete existing
-blog posts, and search by both keywords and usernames.
+you need to run this in your terminal to play
 
 ---
 
@@ -22,7 +19,9 @@ VS Code
 ---
 
 ## Recent Updates
+
 No updates
+
 ---
 
 ## Getting Started
@@ -32,7 +31,7 @@ Clone this repository to your local machine.
 ```
 $ git clone https://github.com/will-ing/madlib-cli.git
 ```
-Once downloaded, activate your virtual environment and run by ____________
+Once downloaded, activate your virtual environment and run by `python madlib-cli/madlib.py`
 ```
 cd madlib-cli/madlib.py
 
@@ -46,13 +45,9 @@ Unit testing is included in the project using the pytest test framework. Tests h
 
 ---
 
-## Usage
-***[Provide some images of your app with brief description as title]***
-
----
-
 ## Data Flow 
-***[Add a clean and clear explanation of what the data flow is. Walk me through it.]***
+
+The file is read > values are identified > a list is created based on user inputs > it printed and shown to user.
 
 ---
 
@@ -65,6 +60,4 @@ Unit testing is included in the project using the pytest test framework. Tests h
 ## Authors
 Will Koger
 
----
 
-For more information on Markdown: https://www.markdownguide.org/cheat-sheet
